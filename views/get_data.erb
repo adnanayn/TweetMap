@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA56v0QIjuNqMNyxEJCnYhdjtsAo9U4oR4&sensor=false" 
+          type="text/javascript"></script>
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script src="/lib/tweet/twit.js"></script>
+    <link rel="stylesheet" href="/lib/tweet/twit.css">
+  </head>
+  <body style="padding-top: 50px;">
+    <center>
+    	<p class="muted"><b>Twitter Username</b></p>
+
+    	<div class="input-prepend">
+			<span class="add-on">@</span>
+				<input class="span2" id="Input" type="text" placeholder="Username">
+		</div>
+    <button class="btn btn-large btn-primary" type="button" id="showButton" onclick = "show_map()">
+        Show My Tweets On Map
+    </button>
+  </center><br/>
+		<center><div id = "showMap"></div></center>
+  </body>
+</html>
